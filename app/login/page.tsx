@@ -30,7 +30,7 @@ export default function LoginPage() {
 
       if (data.user) {
         // Redirigir después del login exitoso
-        router.push('/');
+        router.push('/dashboard');
         router.refresh();
       }
     } catch (err) {
